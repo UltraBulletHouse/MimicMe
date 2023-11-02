@@ -1,0 +1,44 @@
+{
+  "animals": [
+    {
+      "name": "Fox",
+      "image": "fox.png",
+      "features": [
+        "Be clever and solve puzzles.",
+        "Adapt to new situations and challenges.",
+        "Think quickly and make decisions.",
+        "Create a cozy and safe 'den' for yourself."
+      ]
+    },
+    {
+      "name": "Fish",
+      "image": "fish.png",
+      "features": [
+        "Swim gracefully through life's ups and downs.",
+        "Explore the world around you with curiosity.",
+        "Breathe deeply and embrace every moment.",
+        "Remember to protect yourself and your dreams with your own 'scales' of resilience."
+      ]
+    },
+    {
+      "name": "Alligator",
+      "image": "alligator.png",
+      "features": [
+        "Show strength in everything you do.",
+        "Learn to balance your life on land and in water.",
+        "Respect ancient wisdom and let it guide your journey.",
+        "Find comfort and peace in the 'depths' of your existence."
+      ]
+    },
+    {
+      "name": "Penguin",
+      "image": "penguin.png",
+      "features": [
+        "Embrace your unique qualities and abilities.",
+        "Waddle with a smile and charm through life's adventures.",
+        "Dive into new experiences and challenges with confidence.",
+        "Remember that you can thrive and be happy without the need to 'fly' high."
+      ]
+    }
+  ]
+}
