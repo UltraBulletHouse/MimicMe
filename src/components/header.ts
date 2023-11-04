@@ -5,7 +5,7 @@ import { resolveRouterPath } from '../router';
 import '@shoelace-style/shoelace/dist/components/button/button.js';
 @customElement('app-header')
 export class AppHeader extends LitElement {
-  @property({ type: String }) title = 'PWA Starter';
+  @property({ type: String }) title = 'Mimic Me';
 
   @property({ type: Boolean}) enableBack: boolean = false;
 
@@ -48,7 +48,7 @@ export class AppHeader extends LitElement {
 
     @media(prefers-color-scheme: light) {
       header {
-        color: black;
+        color: var(--sl-color-violet-800);
       }
 
       nav a {
@@ -57,14 +57,14 @@ export class AppHeader extends LitElement {
     }
   `;
 
+// href="${resolveRouterPath()}
+
   render() {
     return html`
       <header>
 
         <div id="back-button-block">
-          ${this.enableBack ? html`<sl-button href="${resolveRouterPath()}">
-            Back
-          </sl-button>` : null}
+          ${this.enableBack ? html`<sl-icon name="arrow-left""></sl-icon>` : null}
 
           <h1>${this.title}</h1>
         </div>
