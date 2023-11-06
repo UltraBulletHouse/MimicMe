@@ -4,40 +4,153 @@
       "name": "Fox",
       "image": "fox.png",
       "features": [
-        "Be clever and solve puzzles.",
-        "Adapt to new situations and challenges.",
-        "Think quickly and make decisions.",
-        "Create a cozy and safe 'den' for yourself."
+        "Be clever and supportive towards others.",
+        "Wear a sly and adaptable demeanor.",
+        "Approach life with quick thinking and resourcefulness."
       ]
     },
     {
       "name": "Fish",
       "image": "fish.png",
       "features": [
-        "Swim gracefully through life's ups and downs.",
-        "Explore the world around you with curiosity.",
-        "Breathe deeply and embrace every moment.",
-        "Remember to protect yourself and your dreams with your own 'scales' of resilience."
+        "Swim gracefully and harmoniously with others.",
+        "Dress in sleek and streamlined attire.",
+        "Embrace life with deep breaths and a flexible spirit."
       ]
     },
     {
       "name": "Alligator",
       "image": "alligator.png",
       "features": [
-        "Show strength in everything you do.",
-        "Learn to balance your life on land and in water.",
-        "Respect ancient wisdom and let it guide your journey.",
-        "Find comfort and peace in the 'depths' of your existence."
+        "Show strength and resilience in your interactions with others.",
+        "Wear the powerful and timeless appearance of an alligator.",
+        "Approach life with a sense of balance and ancient wisdom."
       ]
     },
     {
       "name": "Penguin",
       "image": "penguin.png",
       "features": [
-        "Embrace your unique qualities and abilities.",
-        "Waddle with a smile and charm through life's adventures.",
-        "Dive into new experiences and challenges with confidence.",
-        "Remember that you can thrive and be happy without the need to 'fly' high."
+        "Embrace your uniqueness and be supportive to others.",
+        "Dress with charm and a distinctive style like a penguin's waddle.",
+        "Approach life with a sense of adventure and a positive spirit."
+      ]
+    },
+    {
+      "name": "Beaver",
+      "image": "beaver.png",
+      "features": [
+        "Work diligently and cooperate with others in your projects.",
+        "Wear a hardworking and industrious spirit.",
+        "Approach life with a builder's mindset, always constructing your dreams."
+      ]
+    },
+    {
+      "name": "Bulldog",
+      "image": "bulldog.png",
+      "features": [
+        "Be loyal and protective towards your loved ones.",
+        "Wear a tough and determined appearance.",
+        "Approach life with a determined and confident attitude."
+      ]
+    },
+    {
+      "name": "Dino",
+      "image": "dino.png",
+      "features": [
+        "Embrace your unique, prehistoric qualities and stand out.",
+        "Dress with a timeless and legendary aura.",
+        "Approach life with a spirit of exploration and wonder."
+      ]
+    },
+    {
+      "name": "Dog",
+      "image": "dog.png",
+      "features": [
+        "Be loyal, friendly, and loving towards others.",
+        "Wear a friendly and approachable demeanor.",
+        "Approach life with a happy and optimistic attitude."
+      ]
+    },
+    {
+      "name": "Elephant",
+      "image": "elephant.png",
+      "features": [
+        "Show kindness and strength towards others.",
+        "Wear an elegant and majestic presence.",
+        "Approach life with wisdom, patience, and a big heart."
+      ]
+    },
+    {
+      "name": "Hippo",
+      "image": "hippo.png",
+      "features": [
+        "Be confident and content with your unique qualities.",
+        "Wear a cheerful and laid-back attitude.",
+        "Approach life with a sense of joy and relaxation."
+      ]
+    },
+    {
+      "name": "Monkey",
+      "image": "monkey.png",
+      "features": [
+        "Be playful and curious, and share your joy with others.",
+        "Wear a fun-loving and mischievous spirit.",
+        "Approach life with a sense of adventure and spontaneity."
+      ]
+    },
+    {
+      "name": "Panda",
+      "image": "panda.png",
+      "features": [
+        "Show care and harmony in your relationships with others.",
+        "Wear a gentle and peaceful demeanor.",
+        "Approach life with a sense of balance, tranquility, and gratitude."
+      ]
+    },
+    {
+      "name": "Parrot",
+      "image": "parrot.png",
+      "features": [
+        "Be social, adaptable, and colorful in your interactions with others.",
+        "Wear a vibrant and talkative appearance.",
+        "Approach life with a sense of communication, expressiveness, and creativity."
+      ]
+    },
+    {
+      "name": "Seal",
+      "image": "seal.png",
+      "features": [
+        "Embrace your unique abilities and share them with others.",
+        "Wear a joyful and playful demeanor.",
+        "Approach life with a sense of grace, fluidity, and adaptability."
+      ]
+    },
+    {
+      "name": "Tiger",
+      "image": "tiger.png",
+      "features": [
+        "Show courage and strength in the face of challenges.",
+        "Wear a bold and fierce appearance.",
+        "Approach life with a fearless and determined attitude."
+      ]
+    },
+    {
+      "name": "Turtle",
+      "image": "turtle.png",
+      "features": [
+        "Be patient, steady, and thoughtful in your interactions with others.",
+        "Wear a composed and wise demeanor.",
+        "Approach life with a calm and enduring spirit."
+      ]
+    },
+    {
+      "name": "White Bear",
+      "image": "whitebear.png",
+      "features": [
+        "Show strength and resilience in cold and challenging situations.",
+        "Wear a majestic and imposing presence.",
+        "Approach life with a sense of adaptability, fearlessness, and a warm heart."
       ]
     }
   ]
