@@ -41,7 +41,6 @@ export class AppHome extends LitElement {
       }
     }
 
-
     @media (horizontal-viewport-segments: 2) {
       #welcomeBar {
         flex-direction: row;
@@ -68,9 +67,8 @@ export class AppHome extends LitElement {
 
       <main>
         <div id="welcomeBar">
-            <h2>Welcome ${this.name}</h2>
+          <h2>Welcome ${this.name}</h2>
           <sl-button href="${resolveRouterPath('about')}" variant="primary" pill>Let's start!</sl-button>
-
         </div>
       </main>
     `;
