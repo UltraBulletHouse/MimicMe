@@ -64,8 +64,6 @@ export class AppHeader extends LitElement {
       <header>
 
         <div id="back-button-block">
-          ${this.enableBack ? html`<sl-icon name="arrow-left""></sl-icon>` : html`<sl-icon name="arrow-left""></sl-icon>`}
-
           <h1>${this.title}</h1>
         </div>
       </header>
