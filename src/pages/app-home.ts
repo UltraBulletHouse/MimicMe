@@ -17,22 +17,30 @@ export class AppHome extends LitElement {
   static styles = [
     styles,
     css`
-    #welcomeBar {
+    #welcome-bar {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
 
-    #welcomeCard,
-    #infoCard {
-      padding: 18px;
-      padding-top: 0px;
+    #title {
+      color: var(--sl-color-amber-300);
+      text-shadow: 0px 0px 20px #0000008a;
     }
 
     sl-card::part(footer) {
       display: flex;
       justify-content: flex-end;
+    }
+
+    sl-button::part(base)  {
+      background-color: var(--sl-color-amber-300);
+      box-shadow: 0px 0px 20px 0px #00000059;
+    }
+
+    sl-button::part(label) {
+      font-weight: bold;
     }
 
     @media(min-width: 750px) {
@@ -42,14 +50,10 @@ export class AppHome extends LitElement {
     }
 
     @media (horizontal-viewport-segments: 2) {
-      #welcomeBar {
+      #welcome-bar {
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
-      }
-
-      #welcomeCard {
-        margin-right: 64px;
       }
     }
   `];
@@ -66,9 +70,9 @@ export class AppHome extends LitElement {
       <app-header></app-header>
 
       <main>
-        <div id="welcomeBar">
-          <h2>Welcome ${this.name}</h2>
-          <sl-button href="${resolveRouterPath('about')}" variant="primary" pill>Let's start!</sl-button>
+        <div id="welcome-bar">
+          <h2 id="title">What animal are you today?</h2>
+          <sl-button href="${resolveRouterPath('about')}" pill>Let's check!</sl-button>
         </div>
       </main>
     `;

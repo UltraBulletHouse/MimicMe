@@ -27,9 +27,9 @@ export const router = new Router({
         path: resolveRouterPath('about'),
         title: 'About',
         plugins: [
-          lazy(() => import('./pages/app-about/app-about.js')),
+          lazy(() => import('./pages/app-what-animal/app-what-animal.js')),
         ],
-        render: () => html`<app-about></app-about>`
+        render: () => html`<app-what-animal></app-what-animal>`
       }
     ]
   });
