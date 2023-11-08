@@ -25,7 +25,7 @@ export const router = new Router({
       },
       {
         path: resolveRouterPath('about'),
-        title: 'About',
+        title: 'What animal are you?',
         plugins: [
           lazy(() => import('./pages/app-what-animal/app-what-animal.js')),
         ],

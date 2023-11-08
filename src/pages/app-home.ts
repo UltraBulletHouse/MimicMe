@@ -29,14 +29,10 @@ export class AppHome extends LitElement {
       text-shadow: 0px 0px 20px #0000008a;
     }
 
-    sl-card::part(footer) {
-      display: flex;
-      justify-content: flex-end;
-    }
-
     sl-button::part(base)  {
       background-color: var(--sl-color-amber-300);
       box-shadow: 0px 0px 20px 0px #00000059;
+      margin-top: 100px;
     }
 
     sl-button::part(label) {
