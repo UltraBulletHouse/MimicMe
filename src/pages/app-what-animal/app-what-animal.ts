@@ -86,7 +86,7 @@ export class AppWhatAnimal extends LitElement {
          <h2 id=title>Today you are ${this.animal.name}</h2>
          <img id="animal-image" src="${this.getImageUrl(this.animal.image)}" alt="${this.animal.name}" />
         <div id="animal-features" >
-          ${this.animal.features.map(item => html`<div id="animal-feature-item">${item}</div>`)}
+          ${this.animal.features.map(item => html`<div id="animal-feature-item">👉 ${item}</div>`)}
         </div>
       </main>
       <footer>
