@@ -65,7 +65,11 @@ export class AppWhatAnimal extends LitElement {
   connectedCallback() {
     super.connectedCallback()
     this.randomNumber = getRandom(animalsList.animals.length -1);
-    this.animal = animalsList.animals[this.randomNumber]
+    this.animal = animalsList.animals[this.randomNumber];
+  }
+
+   getImageUrl(name: string) {
+    return new URL(`../../images/animals/${name}`, import.meta.url).href
   }
 
   render() {
@@ -75,7 +79,7 @@ export class AppWhatAnimal extends LitElement {
 
       <main>
          <h2 id=title>Today you are ${this.animal.name}</h2>
-         <img id="animal-image" src="src/images/animals/${this.animal.image}" alt="${this.animal.name}" />
+         <img id="animal-image" src="${this.getImageUrl(this.animal.image)}" alt="${this.animal.name}" />
 
       </main>
       <footer>
