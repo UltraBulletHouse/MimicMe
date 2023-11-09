@@ -27,7 +27,7 @@ export class AppWhatAnimal extends LitElement {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 80%;
+      height: 100%;
       margin:0;
     }
     footer {
@@ -38,9 +38,7 @@ export class AppWhatAnimal extends LitElement {
     sl-button::part(base)  {
       background-color: var(--sl-color-amber-300);
       box-shadow: 0px 0px 20px 0px #00000059;
-      margin-top: 100px;
     }
-
     sl-button::part(label) {
       font-weight: bold;
     }
@@ -48,9 +46,16 @@ export class AppWhatAnimal extends LitElement {
       color: var(--sl-color-amber-300);
       text-shadow: 0px 0px 20px #0000008a;
     }
-
     #animal-image {
       height: 250px;
+    }
+    #animal-features {
+      color: var(--sl-color-amber-200);
+      text-shadow: rgb(0 0 0) 0px 0px 4px;
+      padding: 20px 20px 0px;
+    }
+    #animal-feature-item {
+      margin-top: 10px;
     }
   `];
 
@@ -80,7 +85,9 @@ export class AppWhatAnimal extends LitElement {
       <main>
          <h2 id=title>Today you are ${this.animal.name}</h2>
          <img id="animal-image" src="${this.getImageUrl(this.animal.image)}" alt="${this.animal.name}" />
-
+        <div id="animal-features" >
+          ${this.animal.features.map(item => html`<div id="animal-feature-item">${item}</div>`)}
+        </div>
       </main>
       <footer>
       <sl-button pill @click="${this.updateRandom}">Try again!</sl-button>
