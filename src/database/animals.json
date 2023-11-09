@@ -4,153 +4,136 @@
       "name": "Fox",
       "image": "fox.png",
       "features": [
-        "Be clever and supportive towards others.",
-        "Dress in a sly and adaptable style.",
-        "Approach life with quick thinking and resourcefulness."
+        "Task: Jump 1 meter forward.",
+        "Task: Sneak around and playfully startle someone."
       ]
     },
     {
       "name": "Fish",
       "image": "fish.png",
       "features": [
-        "Swim gracefully and harmoniously with others.",
-        "Wear sleek and streamlined attire, like a fish's scales.",
-        "Embrace life with deep breaths and a flexible spirit."
+        "Task: Swim gracefully through a space, imitating a fish's movements.",
+        "Task: Create a sleek and streamlined drawing or design."
       ]
     },
     {
       "name": "Alligator",
       "image": "alligator.png",
       "features": [
-        "Show strength and resilience in your interactions with others.",
-        "Wear a powerful and timeless appearance, like an alligator's skin.",
-        "Approach life with a sense of balance and ancient wisdom."
+        "Task: Demonstrate strength through a physical activity.",
+        "Task: Wear an outfit that exudes power and timelessness."
       ]
     },
     {
       "name": "Penguin",
       "image": "penguin.png",
       "features": [
-        "Embrace your uniqueness and be supportive to others.",
-        "Dress with charm and a distinctive style like a penguin's waddle.",
-        "Approach life with a sense of adventure and a positive spirit."
+        "Task: Waddle in a distinctive and charming manner.",
+        "Task: Support a friend in their unique endeavors."
       ]
     },
     {
       "name": "Beaver",
       "image": "beaver.png",
       "features": [
-        "Work diligently and cooperate with others in your projects.",
-        "Wear a hardworking and industrious spirit, like a beaver's fur.",
-        "Approach life with a builder's mindset, always constructing your dreams."
+        "Task: Build something creative using everyday materials.",
+        "Task: Cooperate with others on a project or task."
       ]
     },
     {
       "name": "Bulldog",
       "image": "bulldog.png",
       "features": [
-        "Be loyal and protective towards your loved ones.",
-        "Wear a tough and determined demeanor, like a bulldog's stance.",
-        "Approach life with a determined and confident attitude."
+        "Task: Demonstrate loyalty by sticking to a commitment.",
+        "Task: Tackle a challenging task with determination."
       ]
     },
     {
       "name": "Dino",
       "image": "dino.png",
       "features": [
-        "Embrace your unique, prehistoric qualities and stand out.",
-        "Wear a timeless and legendary aura, like a dino's scales.",
-        "Approach life with a spirit of exploration and wonder."
+        "Task: Stand out in a crowd, showcasing your unique qualities.",
+        "Task: Explore a new place or concept with a sense of wonder."
       ]
     },
     {
       "name": "Dog",
       "image": "dog.png",
       "features": [
-        "Be loyal, friendly, and loving towards others.",
-        "Wear a friendly and approachable demeanor, like a dog's wagging tail.",
-        "Approach life with a happy and optimistic attitude."
+        "Task: Express loyalty and affection to a friend or family member.",
+        "Task: Approach a task or challenge with a friendly attitude."
       ]
     },
     {
       "name": "Elephant",
       "image": "elephant.png",
       "features": [
-        "Show kindness and strength towards others.",
-        "Wear an elegant and majestic presence, like an elephant's tusks.",
-        "Approach life with wisdom, patience, and a big heart."
+        "Task: Show kindness by helping someone in need.",
+        "Task: Create an elegant and majestic piece of art."
       ]
     },
     {
       "name": "Hippo",
       "image": "hippo.png",
       "features": [
-        "Be confident and content with your unique qualities.",
-        "Wear a cheerful and laid-back attitude, like a hippo's grin.",
-        "Approach life with a sense of joy and relaxation."
+        "Task: Be confident in expressing your unique qualities.",
+        "Task: Wear a cheerful and laid-back outfit for the day."
       ]
     },
     {
       "name": "Monkey",
       "image": "monkey.png",
       "features": [
-        "Be playful and curious, and share your joy with others.",
-        "Wear a fun-loving and mischievous spirit, like a monkey's antics.",
-        "Approach life with a sense of adventure and spontaneity."
+        "Task: Playfully imitate a monkey's antics and bring joy to others.",
+        "Task: Engage in a spontaneous and adventurous activity."
       ]
     },
     {
       "name": "Panda",
       "image": "panda.png",
       "features": [
-        "Show care and harmony in your relationships with others.",
-        "Wear a gentle and peaceful demeanor, like a panda's grace.",
-        "Approach life with a sense of balance, tranquility, and gratitude."
+        "Task: Create harmony in your surroundings.",
+        "Task: Embrace a gentle and peaceful mindset throughout the day."
       ]
     },
     {
       "name": "Parrot",
       "image": "parrot.png",
       "features": [
-        "Be social, adaptable, and colorful in your interactions with others.",
-        "Wear a vibrant and talkative appearance, like a parrot's plumage.",
-        "Approach life with a sense of communication, expressiveness, and creativity."
+        "Task: Engage in colorful and lively conversations with others.",
+        "Task: Express yourself creatively, whether through art or words."
       ]
     },
     {
       "name": "Seal",
       "image": "seal.png",
       "features": [
-        "Embrace your unique abilities and share them with others.",
-        "Wear a joyful and playful demeanor, like a seal's expression.",
-        "Approach life with a sense of grace, fluidity, and adaptability."
+        "Task: Showcase a unique talent or ability you possess.",
+        "Task: Adapt gracefully to changes in your routine or plans."
       ]
     },
     {
       "name": "Tiger",
       "image": "tiger.png",
       "features": [
-        "Show courage and strength in the face of challenges.",
-        "Wear a bold and fierce appearance, like a tiger's stripes.",
-        "Approach life with a fearless and determined attitude."
+        "Task: Face a challenge with courage and determination.",
+        "Task: Wear a bold and fierce outfit or accessory."
       ]
     },
     {
       "name": "Turtle",
       "image": "turtle.png",
       "features": [
-        "Be patient, steady, and thoughtful in your interactions with others.",
-        "Wear a composed and wise demeanor, like a turtle's shell.",
-        "Approach life with a calm and enduring spirit."
+        "Task: Demonstrate patience in a situation that tests it.",
+        "Task: Wear a composed and wise outfit for the day."
       ]
     },
     {
       "name": "White Bear",
       "image": "whitebear.png",
       "features": [
-        "Show strength and resilience in cold and challenging situations.",
-        "Wear a majestic and imposing presence, like a white bear's fur.",
-        "Approach life with a sense of adaptability, fearlessness, and a warm heart."
+        "Task: Show resilience in overcoming a challenge.",
+        "Task: Wear an outfit that exudes both warmth and strength."
       ]
     }
   ]
