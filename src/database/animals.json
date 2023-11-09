@@ -4,136 +4,136 @@
       "name": "Fox",
       "image": "fox.png",
       "features": [
-        "Task: Jump 1 meter forward.",
-        "Task: Sneak around and playfully startle someone."
+        "Jump 1 meter forward.",
+        "Sneak around and playfully startle someone."
       ]
     },
     {
       "name": "Fish",
       "image": "fish.png",
       "features": [
-        "Task: Swim gracefully through a space, imitating a fish's movements.",
-        "Task: Create a sleek and streamlined drawing or design."
+        "Swim gracefully through a space, imitating a fish's movements.",
+        "Create a sleek and streamlined drawing or design."
       ]
     },
     {
       "name": "Alligator",
       "image": "alligator.png",
       "features": [
-        "Task: Demonstrate strength through a physical activity.",
-        "Task: Wear an outfit that exudes power and timelessness."
+        "Demonstrate strength through a physical activity.",
+        "Wear an outfit that exudes power and timelessness."
       ]
     },
     {
       "name": "Penguin",
       "image": "penguin.png",
       "features": [
-        "Task: Waddle in a distinctive and charming manner.",
-        "Task: Support a friend in their unique endeavors."
+        "Waddle in a distinctive and charming manner.",
+        "Support a friend in their unique endeavors."
       ]
     },
     {
       "name": "Beaver",
       "image": "beaver.png",
       "features": [
-        "Task: Build something creative using everyday materials.",
-        "Task: Cooperate with others on a project or task."
+        "Build something creative using everyday materials.",
+        "Cooperate with others on a project or task."
       ]
     },
     {
       "name": "Bulldog",
       "image": "bulldog.png",
       "features": [
-        "Task: Demonstrate loyalty by sticking to a commitment.",
-        "Task: Tackle a challenging task with determination."
+        "Demonstrate loyalty by sticking to a commitment.",
+        "Tackle a challenging task with determination."
       ]
     },
     {
       "name": "Dino",
       "image": "dino.png",
       "features": [
-        "Task: Stand out in a crowd, showcasing your unique qualities.",
-        "Task: Explore a new place or concept with a sense of wonder."
+        "Stand out in a crowd, showcasing your unique qualities.",
+        "Explore a new place or concept with a sense of wonder."
       ]
     },
     {
       "name": "Dog",
       "image": "dog.png",
       "features": [
-        "Task: Express loyalty and affection to a friend or family member.",
-        "Task: Approach a task or challenge with a friendly attitude."
+        "Express loyalty and affection to a friend or family member.",
+        "Approach a task or challenge with a friendly attitude."
       ]
     },
     {
       "name": "Elephant",
       "image": "elephant.png",
       "features": [
-        "Task: Show kindness by helping someone in need.",
-        "Task: Create an elegant and majestic piece of art."
+        "Show kindness by helping someone in need.",
+        "Create an elegant and majestic piece of art."
       ]
     },
     {
       "name": "Hippo",
       "image": "hippo.png",
       "features": [
-        "Task: Be confident in expressing your unique qualities.",
-        "Task: Wear a cheerful and laid-back outfit for the day."
+        "Be confident in expressing your unique qualities.",
+        "Wear a cheerful and laid-back outfit for the day."
       ]
     },
     {
       "name": "Monkey",
       "image": "monkey.png",
       "features": [
-        "Task: Playfully imitate a monkey's antics and bring joy to others.",
-        "Task: Engage in a spontaneous and adventurous activity."
+        "Playfully imitate a monkey's antics and bring joy to others.",
+        "Engage in a spontaneous and adventurous activity."
       ]
     },
     {
       "name": "Panda",
       "image": "panda.png",
       "features": [
-        "Task: Create harmony in your surroundings.",
-        "Task: Embrace a gentle and peaceful mindset throughout the day."
+        "Create harmony in your surroundings.",
+        "Embrace a gentle and peaceful mindset throughout the day."
       ]
     },
     {
       "name": "Parrot",
       "image": "parrot.png",
       "features": [
-        "Task: Engage in colorful and lively conversations with others.",
-        "Task: Express yourself creatively, whether through art or words."
+        "Engage in colorful and lively conversations with others.",
+        "Express yourself creatively, whether through art or words."
       ]
     },
     {
       "name": "Seal",
       "image": "seal.png",
       "features": [
-        "Task: Showcase a unique talent or ability you possess.",
-        "Task: Adapt gracefully to changes in your routine or plans."
+        "Showcase a unique talent or ability you possess.",
+        "Adapt gracefully to changes in your routine or plans."
       ]
     },
     {
       "name": "Tiger",
       "image": "tiger.png",
       "features": [
-        "Task: Face a challenge with courage and determination.",
-        "Task: Wear a bold and fierce outfit or accessory."
+        "Face a challenge with courage and determination.",
+        "Wear a bold and fierce outfit or accessory."
       ]
     },
     {
       "name": "Turtle",
       "image": "turtle.png",
       "features": [
-        "Task: Demonstrate patience in a situation that tests it.",
-        "Task: Wear a composed and wise outfit for the day."
+        "Demonstrate patience in a situation that tests it.",
+        "Wear a composed and wise outfit for the day."
       ]
     },
     {
       "name": "White Bear",
       "image": "whitebear.png",
       "features": [
-        "Task: Show resilience in overcoming a challenge.",
-        "Task: Wear an outfit that exudes both warmth and strength."
+        "Show resilience in overcoming a challenge.",
+        "Wear an outfit that exudes both warmth and strength."
       ]
     }
   ]
