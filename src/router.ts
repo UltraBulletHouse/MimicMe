@@ -20,11 +20,11 @@ export const router = new Router({
     routes: [
       {
         path: resolveRouterPath(),
-        title: 'Home',
+        title: 'mimic me',
         render: () => html`<app-home></app-home>`
       },
       {
-        path: resolveRouterPath('about'),
+        path: resolveRouterPath('animal'),
         title: 'What animal are you?',
         plugins: [
           lazy(() => import('./pages/app-what-animal/app-what-animal.js')),

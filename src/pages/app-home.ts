@@ -41,7 +41,7 @@ export class AppHome extends LitElement {
       <main>
         <div id="home">
           <h2 id="title">What animal are you today?</h2>
-          <sl-button href="${resolveRouterPath('about')}" pill>Let's check!</sl-button>
+          <sl-button href="${resolveRouterPath('animal')}" pill>Let's check!</sl-button>
         </div>
       </main>
     `;
