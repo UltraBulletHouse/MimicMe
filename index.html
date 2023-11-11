@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="google-adsense-account" content="ca-pub-9649063342759771">
   <title>mimic me</title>
 
   <base href="/" />
@@ -38,12 +39,14 @@
     onload="document.documentElement.classList.add('sl-theme-dark');">
 
   <script type="module" src="/src/app-index.ts"></script>
+  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9649063342759771"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Our app-index web component. This component is defined in src/pages/app-index.ts-->
   <app-index></app-index>
-
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register(

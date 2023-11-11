@@ -81,6 +81,14 @@ export class AppWhatAnimal extends LitElement {
           <div id="button-container">
             <sl-button pill @click="${this.updateRandom}">Try again!</sl-button>
           </div>
+          <amp-ad width="100vw" height="320"
+          type="adsense"
+          data-ad-client="ca-pub-9649063342759771"
+          data-ad-slot="4533552082"
+          data-auto-format="rspv"
+          data-full-width="">
+         <div overflow=""></div>
+        </amp-ad>
         </div>
       </main>
     `;
