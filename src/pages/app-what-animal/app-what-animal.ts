@@ -21,14 +21,14 @@ export class AppWhatAnimal extends LitElement {
       height: 90%;
     }
     #title{
-      color: var(--sl-color-amber-300);
+      color: var(--sl-color-yellow-300);
       text-shadow: 0px 0px 20px #0000008a;
     }
     #animal-image {
       height: 250px;
     }
     #animal-features {
-      color: var(--sl-color-amber-200);
+      color: var(--sl-color-yellow-200);
       text-shadow: rgb(0 0 0) 0px 0px 4px;
       padding: 20px 20px 0px;
     }
@@ -41,7 +41,7 @@ export class AppWhatAnimal extends LitElement {
       align-items: center;
     }
     sl-button::part(base)  {
-      background-color: var(--sl-color-amber-300);
+      background-color: var(--sl-color-yellow-300);
       box-shadow: 0px 0px 20px 0px #00000059;
     }
     sl-button::part(label) {

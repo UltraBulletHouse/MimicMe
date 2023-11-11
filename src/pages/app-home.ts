@@ -21,12 +21,12 @@ export class AppHome extends LitElement {
     }
 
     #title {
-      color: var(--sl-color-amber-300);
+      color: var(--sl-color-yellow-300);
       text-shadow: 0px 0px 20px #0000008a;
     }
 
     sl-button::part(base)  {
-      background-color: var(--sl-color-amber-300);
+      background-color: var(--sl-color-yellow-300);
       box-shadow: 0px 0px 20px 0px #00000059;
       margin-top: 100px;
     }
