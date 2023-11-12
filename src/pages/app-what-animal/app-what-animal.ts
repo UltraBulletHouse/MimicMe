@@ -62,7 +62,7 @@ export class AppWhatAnimal extends LitElement {
   @property() randomNumber = 10
   @property() animal = getStoredAnimal() || animalsList.animals[this.randomNumber];
   @property() expiresText = '';
-  @property() expirationTimeInMs: number = 24 * 60 * 60 * 100;//24 * 60 * 60 * 1000 (dla testów 5 sekund cache jest zwalidowany, produkcyjnie zmienimy do 24h)
+  @property() expirationTimeInMs: number = 24 * 60 * 60 * 1000;//24 * 60 * 60 * 1000 (dla testów 5 sekund cache jest zwalidowany, produkcyjnie zmienimy do 24h)
 
   private usedAnimalIndices: number[] = [];
 
