@@ -57,8 +57,6 @@ export class AppHeader extends LitElement {
     }
   `;
 
-// href="${resolveRouterPath()}
-
   render() {
     return html`
       <header>

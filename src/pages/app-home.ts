@@ -1,11 +1,12 @@
 import { LitElement, css, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import { resolveRouterPath } from '../router';
+import { resolveRouterPath, router } from '../router';
 
 import '@shoelace-style/shoelace/dist/components/card/card.js';
 import '@shoelace-style/shoelace/dist/components/button/button.js';
 
 import { styles } from '../styles/shared-styles';
+import { getStoredAnimal } from '../utils/getStoredAnimal';
 
 @customElement('app-home')
 export class AppHome extends LitElement {
@@ -35,6 +36,15 @@ export class AppHome extends LitElement {
       font-weight: bold;
     }
   `];
+
+connectedCallback() {
+  super.connectedCallback()
+
+  const hasAnimal = getStoredAnimal()
+  if(hasAnimal) {
+    router.navigate('/animal')
+  }
+}
 
   render() {
     return html`
