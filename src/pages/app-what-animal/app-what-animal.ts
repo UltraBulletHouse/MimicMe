@@ -193,10 +193,9 @@ export class AppWhatAnimal extends LitElement {
           </div>
 
           <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="pub-9649063342759771"
-          data-ad-slot="ca-app-pub-3940256099942544/6300978111"
-          data-ad-format="auto"></ins>
+          style="display:inline-block;width:320px;height:100px"
+          data-ad-client="ca-app-pub-3940256099942544"
+          data-ad-slot="6300978111"></ins>
         </div>
       </main>
     `;
