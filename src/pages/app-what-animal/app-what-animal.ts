@@ -4,6 +4,7 @@ import { customElement, property } from 'lit/decorators.js';
 import { styles } from '../../styles/shared-styles'
 import animalsList from "../../database/animals.json";
 import { getRandom } from '../../helpers/getRandom';
+import { getStoredAnimal } from '../../utils/getStoredAnimal';
 
 @customElement('app-what-animal')
 export class AppWhatAnimal extends LitElement {
@@ -13,12 +14,21 @@ export class AppWhatAnimal extends LitElement {
     #container {
       height: 100%;
     }
+    #expiration-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    #expiration-time {
+      color: var(--sl-color-lime-300);
+      text-shadow: 0px 0px 20px #0000008a;
+    }
     #content {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      height: 90%;
+      height: 80%;
     }
     #title{
       color: var(--sl-color-amber-300);
@@ -50,9 +60,9 @@ export class AppWhatAnimal extends LitElement {
   `];
 
   @property() randomNumber = 10
-  @property() animal = this.getStoredAnimal() || animalsList.animals[this.randomNumber];
+  @property() animal = getStoredAnimal() || animalsList.animals[this.randomNumber];
   @property() expiresText = '';
-  @property() expirationTimeInMs: number = 5000;//24 * 60 * 60 * 1000 (dla testów 5 sekund cache jest zwalidowany, produkcyjnie zmienimy do 24h)
+  @property() expirationTimeInMs: number = 24 * 60 * 60 * 100;//24 * 60 * 60 * 1000 (dla testów 5 sekund cache jest zwalidowany, produkcyjnie zmienimy do 24h)
 
   private usedAnimalIndices: number[] = [];
 
@@ -85,7 +95,7 @@ export class AppWhatAnimal extends LitElement {
     const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
-    let expiresText = "Expires in: ";
+    let expiresText = "New animal in ";
 
     if (hours > 0) {
       expiresText += `${hours}h `;
@@ -103,7 +113,7 @@ export class AppWhatAnimal extends LitElement {
   }
 
   getExpirationTime() {
-    const storedAnimal = this.getStoredAnimal();
+    const storedAnimal = getStoredAnimal();
     return storedAnimal ? storedAnimal.timestamp : 0;
   }
 
@@ -113,7 +123,7 @@ export class AppWhatAnimal extends LitElement {
     if (storedUsedIndices) {
       this.usedAnimalIndices = storedUsedIndices;
     }
-    const storedAnimal = this.getStoredAnimal();
+    const storedAnimal = getStoredAnimal();
     if (storedAnimal && this.isStoredAnimalValid(storedAnimal)) {
       this.animal = storedAnimal;
       this.calculateExpirationTime();
@@ -135,18 +145,6 @@ export class AppWhatAnimal extends LitElement {
     } else {
       this.calculateExpirationTime();
     }
-  }
-
-  getStoredAnimal() {
-    const cookies = document.cookie.split(';');
-    for (let i = 0; i < cookies.length; i++) {
-      const cookie = cookies[i].trim();
-      if (cookie.startsWith('chosenAnimal=')) {
-        var storedAnimal = JSON.parse(cookie.substring('chosenAnimal='.length, cookie.length));
-        return storedAnimal;
-      }
-    }
-    return null;
   }
 
   getStoredUsedIndices() {
@@ -183,17 +181,17 @@ export class AppWhatAnimal extends LitElement {
     return html`
       <main>
         <div id="container">
+        <div id="expiration-wrapper">
+          <div id="expiration-time">${this.expiresText}</div>
+        </div>
           <div id="content">
             <h2 id=title>Today you are ${this.animal.name}</h2>
             <img id="animal-image" src="${this.getImageUrl(this.animal.image)}" alt="${this.animal.name}" />
             <div id="animal-features" >
             ${this.animal.features.map((item: any) => html`<h4 id="animal-feature-item">👉 ${item}</h4>`)}
             </div>
-            <p id="expiration-time">${this.expiresText}</p>
           </div>
-          <div id="button-container">
-            <sl-button pill @click="${this.updateRandom}">Try again!</sl-button>
-          </div>
+
           <amp-ad width="100vw" height="320"
           type="adsense"
           data-ad-client="ca-pub-9649063342759771"

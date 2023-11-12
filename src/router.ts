@@ -20,7 +20,7 @@ export const router = new Router({
     routes: [
       {
         path: resolveRouterPath(),
-        title: 'mimic me',
+        title: 'Mimic me',
         render: () => html`<app-home></app-home>`
       },
       {
