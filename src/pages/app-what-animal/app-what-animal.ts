@@ -192,7 +192,6 @@ export class AppWhatAnimal extends LitElement {
             ${this.animal.features.map((item: any) => html`<h4 id="animal-feature-item">👉 ${item}</h4>`)}
             </div>
           </div>
-
         </div>
       </main>
     `;
