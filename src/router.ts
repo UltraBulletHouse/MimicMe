@@ -13,6 +13,7 @@ import { lazy } from '@thepassle/app-tools/router/plugins/lazy.js';
 import { title } from '@thepassle/app-tools/router/plugins/title.js';
 
 import './pages/app-home.js';
+import './pages/app-what-animal/app-what-animal.js';
 
 const baseURL: string = (import.meta as any).env.BASE_URL;
 
@@ -27,9 +28,9 @@ export const router = new Router({
       {
         path: resolveRouterPath('animal'),
         title: 'What animal are you?',
-        plugins: [
-          lazy(() => import('./pages/app-what-animal/app-what-animal.js')),
-        ],
+        // plugins: [
+        //   lazy(() => import('./pages/app-what-animal/app-what-animal.js')),
+        // ],
         render: () => html`<app-what-animal></app-what-animal>`
       }
     ]
