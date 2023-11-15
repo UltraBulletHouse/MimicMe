@@ -36,6 +36,7 @@ export class AppWhatAnimal extends LitElement {
     }
     #animal-image {
       height: 250px;
+      pointer-events: none;
     }
     #animal-features {
       color: var(--sl-color-yellow-200);
@@ -192,14 +193,6 @@ export class AppWhatAnimal extends LitElement {
             </div>
           </div>
 
-          <amp-ad width="100vw" height="320"
-          type="adsense"
-          data-ad-client="ca-pub-9649063342759771"
-          data-ad-slot="4533552082"
-          data-auto-format="rspv"
-          data-full-width="">
-         <div overflow=""></div>
-        </amp-ad>
         </div>
       </main>
     `;

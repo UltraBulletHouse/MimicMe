@@ -34,20 +34,16 @@
   <!-- light mode and dark mode CSS -->
   <link rel="stylesheet" media="(prefers-color-scheme:light)"
     href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css">
-  <link rel="stylesheet" media="(prefers-color-scheme:dark)"
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme:dark)"
     href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/dark.css"
-    onload="document.documentElement.classList.add('sl-theme-dark');">
+    onload="document.documentElement.classList.add('sl-theme-dark');"> -->
 
   <script type="module" src="/src/app-index.ts"></script>
-  <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9649063342759771"
-     crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- Our app-index web component. This component is defined in src/pages/app-index.ts-->
   <app-index></app-index>
-  <script>
+<script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register(
         '/sw.js'
