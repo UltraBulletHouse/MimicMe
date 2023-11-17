@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.courageous_starship_1a4f54.twa",
+        "sha256_cert_fingerprints": [
+          "00:9C:86:C5:70:3D:87:DA:5F:25:0F:18:72:3D:00:F8:55:88:C4:79:EE:39:C4:BA:C1:C7:FF:D2:90:D8:D5:A5"
+        ]
+      }
+    }
+  ]
